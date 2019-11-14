@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is a primitive example showing the different types of preferences available. -->
+<!-- BEGIN_INCLUDE(preferences) -->
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/inline_preferences">
+            
+        <CheckBoxPreference
+                android:key="checkbox_preference"
+                android:title="@string/title_checkbox_preference"
+                android:summary="@string/summary_checkbox_preference" />
+
+        <SwitchPreference
+                android:key="checkbox_preference"
+                android:title="@string/title_switch_preference"
+                android:summary="@string/summary_switch_preference" />
+
+        <SwitchPreference
+                android:key="checkbox_preference"
+                android:title="@string/title_switch_preference"
+                android:summary="@string/summary_switch_preference_yes_no"
+                android:switchTextOn = "YES"
+                android:switchTextOff = "NO"
+                android:defaultValue="true" />
+            
+    </PreferenceCategory>
+    
+</PreferenceScreen>
+<!-- END_INCLUDE(preferences) -->

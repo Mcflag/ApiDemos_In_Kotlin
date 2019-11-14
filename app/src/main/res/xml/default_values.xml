@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a primitive example showing how to set default values for preferences.
+     See DefaultValues.java for more information. -->
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+            android:key="default_checkbox"
+            android:defaultValue="true"
+            android:title="@string/title_checkbox_preference"
+            android:summary="@string/summary_checkbox_preference" />
+
+    <EditTextPreference
+            android:key="default_edittext"
+            android:defaultValue="@string/default_value_edittext_preference"
+            android:title="@string/title_edittext_preference"
+            android:summary="@string/summary_edittext_preference"
+            android:dialogTitle="@string/dialog_title_edittext_preference" />
+            
+    <ListPreference
+            android:key="default_list"
+            android:defaultValue="@string/default_value_list_preference"
+            android:title="@string/title_list_preference"
+            android:summary="@string/summary_list_preference"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entryvalues_list_preference"
+            android:dialogTitle="@string/dialog_title_list_preference" />
+
+</PreferenceScreen>

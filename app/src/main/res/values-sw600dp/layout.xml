@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Define a new configuration for the resources_layout_reference layout,
+         which uses the special tablet layout. -->
+    <item type="layout" name="resources_layout_reference">
+            @layout/resources_layout_reference_tablet</item>
+</resources>

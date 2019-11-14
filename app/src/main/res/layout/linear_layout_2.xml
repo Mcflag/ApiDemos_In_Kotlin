@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- Demonstrates a simple linear layout. The layout fills the screen, with the children stacked from the top. -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- view1 goes on top -->
+    <TextView
+        android:background="@drawable/box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/linear_layout_2_top"/>
+
+    <!-- view2 goes in the middle -->
+    <TextView
+       android:background="@drawable/box"
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/linear_layout_2_middle"/>
+
+    <!-- view3 goes on the bottom -->
+    <TextView
+        android:background="@drawable/box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/linear_layout_2_bottom"/>
+
+</LinearLayout>
+

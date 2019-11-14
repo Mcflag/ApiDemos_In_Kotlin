@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- Front-end for running application instrumentation demonstration.
+     See corresponding Java code com.android.sdk.app.ContactsFilter.java. -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="4dip"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingBottom="4dip"
+        android:text="@string/contacts_filter"/>
+
+    <Button android:id="@+id/go"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        android:text="@string/go">
+        <requestFocus />
+    </Button>
+
+</LinearLayout>
+

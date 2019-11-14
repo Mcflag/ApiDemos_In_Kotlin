@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- Demonstrates using a relative layout to create a form -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/blue"
+    android:padding="10dip">
+
+    <!--
+        TextView goes at the top left by default .
+    -->
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/relative_layout_2_instructions"/>
+
+    <!--
+        Put the EditText field under the TextView
+    -->
+    <EditText
+        android:id="@+id/entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label"/>
+
+    <!--
+        The OK button goes below the EditText field.
+        It is also aligned to the right edge of the parent
+        (respecting the parent's padding).
+        The OK button comes first so the Cancel button
+        can be specified relative to the OK button.
+    -->
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entry"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:text="@string/relative_layout_2_ok" />
+
+    <!--
+        The Cancel button is aligned with the top of
+        the OK button and positioned to the left of it.
+        Since the OK button has a left margin of 10, there
+        is some space between the two buttons.
+    -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/ok"
+        android:layout_alignTop="@id/ok"
+        android:text="@string/relative_layout_2_cancel" />
+
+</RelativeLayout>
+

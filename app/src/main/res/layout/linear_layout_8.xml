@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--
+    Demonstrates a simple linear layout. The layout fills the screen, with the
+    children stacked from the top.
+    -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dip">
+  <LinearLayout
+      android:id="@+id/layout"
+      android:orientation="vertical"
+      android:background="@drawable/blue"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:padding="30dip">
+
+    <TextView
+	android:background="@drawable/box"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/linear_layout_8_c"/>
+
+    <TextView
+	android:background="@drawable/box"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/linear_layout_8_b"/>
+
+    <TextView
+	android:background="@drawable/box"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/linear_layout_8_c"/>
+
+  </LinearLayout>
+
+</FrameLayout>

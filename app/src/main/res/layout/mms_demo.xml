@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Demonstrates sending and receiving MMS messages using MMS APIs
+     See corresponding Java code MmsDemo.java
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            android:text="@string/sms_warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <CheckBox
+            android:id="@+id/mms_enable_receiver"
+            android:text="@string/mms_enable_receiver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/mms_recipients_label"/>
+        <EditText
+                android:id="@+id/mms_recipients_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/mms_subject_label"/>
+        <EditText
+                android:id="@+id/mms_subject_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/mms_text_label"/>
+        <EditText
+                android:id="@+id/mms_text_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/mms_send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/mms_send_button_label"/>
+    <TextView
+            android:id="@+id/mms_send_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- An overlay that will appear on top of the secure view in an attempt to obscure
+     its true purpose and encourage the user to click on the secure button. -->
+<com.ccooy.apidemos.view.SecureViewOverlay
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/secure_view_overlay_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/secure_view_overlay_description"/>
+
+    <Button
+        android:id="@+id/secure_view_overlay_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#383"
+        android:text="@string/secure_view_overlay_button1"/>
+
+    <Button
+        android:id="@+id/secure_view_overlay_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#383"
+        android:text="@string/secure_view_overlay_button2"/>
+
+    <Button
+        android:id="@+id/secure_view_overlay_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#383"
+        android:text="@string/secure_view_overlay_button3"/>
+</com.ccooy.apidemos.view.SecureViewOverlay>

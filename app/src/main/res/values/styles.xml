@@ -1,0 +1,168 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.Dialog" parent="Theme.AppCompat.Light.Dialog" />
+
+    <style name="Theme.CustomDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@drawable/filled_box</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- Base application theme is the default theme. -->
+    <style name="Theme" parent="android:Theme" />
+
+    <!-- Variation on our application theme that forces a plain
+        text style. -->
+    <style name="Theme.PlainText">
+        <item name="android:textAppearance">@style/TextAppearance.Theme.PlainText</item>
+    </style>
+
+    <!-- Variation on our application theme that has a black
+         background. -->
+    <style name="Theme.Black">
+        <item name="android:windowBackground">@drawable/screen_background_black</item>
+    </style>
+
+    <!-- A theme that has a wallpaper background.  Here we explicitly specify
+         that this theme is to inherit from the system's wallpaper theme,
+         which sets up various attributes correctly. -->
+    <style name="AppTheme.Wallpaper">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:colorForeground">#fff</item>
+    </style>
+    <style name="MyTheme.Wallpaper" parent="android:style/Theme.Wallpaper">
+        <item name="android:colorForeground">#fff</item>
+    </style>
+
+    <!-- Variation on our application theme that has a transparent
+         background; this example completely removes the background,
+         allowing the activity to decide how to composite.  Also here we
+         force the translucency ourself rather than making use of the built-in
+         translucent theme. -->
+    <style name="Theme.Transparent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowBackground">@drawable/transparent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+    </style>
+
+    <style name="TextAppearance.Theme.PlainText" parent="android:TextAppearance.Theme">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ImageView120dpi">
+        <item name="android:src">@drawable/stylogo120dpi</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ImageView160dpi">
+        <item name="android:src">@drawable/stylogo160dpi</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ImageView240dpi">
+        <item name="android:src">@drawable/stylogo240dpi</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ThemeDialogWhenLarge" parent="Theme.AppCompat.Light.DialogWhenLarge" />
+
+    <style name="ActivityTransitionTheme" parent="Theme.AppCompat.Light" />
+
+    <style name="AndroidMaterial" parent="android:style/Theme.Material" />
+
+    <style name="CustomTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@color/custom_theme_color</item>
+        <item name="android:colorBackground">@color/custom_theme_color</item>
+    </style>
+
+
+
+    <!-- ================================================================================== -->
+    <!-- Theme.AppCompat 对Overscan、Translucent等的支持 -->
+    <!-- Theme.AppCompat -->
+    <style name="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AppCompat.NoActionBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.AppCompat.NoActionBar.Overscan">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.AppCompat.NoActionBar.TranslucentDecor">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent.NoActionBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!-- Theme.AppCompat.Light -->
+    <style name="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.Overscan">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.TranslucentDecor">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.Translucent.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.Translucent.NoActionBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

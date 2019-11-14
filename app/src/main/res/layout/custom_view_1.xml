@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- Demonstrates defining custom views in a layout file. -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res/com.ccooy.apidemos"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+    <com.ccooy.apidemos.view.LabelView
+            android:background="@drawable/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            app:text="Red"/>
+    
+    <com.ccooy.apidemos.view.LabelView
+            android:background="@drawable/blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            app:text="Blue" app:textSize="20dp"/>
+    
+    <com.ccooy.apidemos.view.LabelView
+            android:background="@drawable/green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            app:text="Green" app:textColor="#ffffffff" />
+
+</LinearLayout>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+          android:text="@string/table_layout_1_star"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/table_layout_1_open"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/table_layout_1_open_shortcut"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/table_layout_1_triple_star"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/table_layout_1_save"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/table_layout_1_save_shortcut"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/table_layout_1_star"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/table_layout_1_quit"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/table_layout_1_quit_shortcut"
+            android:padding="3dip" />
+    </TableRow>
+</TableLayout>

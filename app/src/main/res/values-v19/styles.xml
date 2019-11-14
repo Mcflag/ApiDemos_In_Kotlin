@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.AppCompat.NoActionBar.TranslucentDecor">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.TranslucentDecor">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

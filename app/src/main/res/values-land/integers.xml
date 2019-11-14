@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- For the System UI Modes API demo, this is the number of columns to use
+       for the mode options.  Changes between portrait and landscape. -->
+  <integer name="system_ui_modes_cols">3</integer>
+</resources>
