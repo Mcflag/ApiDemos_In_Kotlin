@@ -213,18 +213,18 @@
             </intent-filter>
         </activity>
 
-<!--        <activity-->
-<!--            android:name=".app.ReceiveResult"-->
-<!--            android:label="@string/activity_receive_result">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
+        <activity
+            android:name=".app.ReceiveResult"
+            android:label="@string/activity_receive_result">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
 
-<!--        <activity-->
-<!--            android:name=".app.SendResult"-->
-<!--            android:theme="@style/ThemeDialogWhenLarge"></activity>-->
+        <activity
+            android:name=".app.SendResult"
+            android:theme="@style/ThemeDialogWhenLarge"/>
 
 <!--        <activity-->
 <!--            android:name=".app.Forwarding"-->
