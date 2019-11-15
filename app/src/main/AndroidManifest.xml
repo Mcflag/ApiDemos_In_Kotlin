@@ -226,29 +226,47 @@
             android:name=".app.SendResult"
             android:theme="@style/ThemeDialogWhenLarge"/>
 
-<!--        <activity-->
-<!--            android:name=".app.Forwarding"-->
-<!--            android:label="@string/activity_forwarding">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
+        <activity
+            android:name=".app.Forwarding"
+            android:label="@string/activity_forwarding">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
 
-<!--        <activity android:name=".app.ForwardTarget"></activity>-->
+        <activity android:name=".app.ForwardTarget"/>
 
-<!--        <activity-->
-<!--            android:name=".app.RedirectEnter"-->
-<!--            android:label="@string/activity_redirect">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
+        <activity
+            android:name=".app.RedirectEnter"
+            android:label="@string/activity_redirect">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
 
-<!--        <activity android:name=".app.RedirectMain"></activity>-->
+        <activity android:name=".app.RedirectMain"/>
 
-<!--        <activity android:name=".app.RedirectGetter"></activity>-->
+        <activity android:name=".app.RedirectGetter"/>
+
+        <activity
+            android:name=".app.PresentationActivity"
+            android:label="@string/activity_presentation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.PresentationWithMediaRouterActivity"
+            android:label="@string/activity_presentation_with_media_router">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
 
 <!--        &lt;!&ndash; This sample doesn't work with the new action bar, so use-->
 <!--             the old style theme. &ndash;&gt;-->
@@ -285,23 +303,6 @@
 <!--        <activity android:name=".app.ReorderThree" />-->
 <!--        <activity android:name=".app.ReorderFour" />-->
 
-<!--        <activity-->
-<!--            android:name=".app.PresentationActivity"-->
-<!--            android:label="@string/activity_presentation">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.PresentationWithMediaRouterActivity"-->
-<!--            android:label="@string/activity_presentation_with_media_router">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
 
 <!--        <activity-->
 <!--            android:name=".app.SecureWindowActivity"-->
