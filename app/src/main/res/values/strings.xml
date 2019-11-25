@@ -17,10 +17,10 @@
     <string name="tabs_1_tab_2">tab2</string>
     <string name="tabs_1_tab_3">tab3</string>
 
-    <string name="activity_hello_world">App/Activity/01.<b>Hello <i>World</i></b></string>
+    <string name="activity_hello_world">01.App/01.Activity/01.<b>Hello <i>World</i></b></string>
     <string name="hello_world"><b>Hello, <i>World!</i></b></string>
 
-    <string name="activity_dialog">App/Activity/02.Dialog</string>
+    <string name="activity_dialog">01.App/01.Activity/02.Dialog</string>
     <string name="dialog_activity_text">Example of how you can use the
             Theme.Dialog theme to make an activity that looks like a
             dialog.  It also has lots of text to show how text wrapping (and
@@ -28,34 +28,34 @@
     <string name="dialog_activity_add">Add content</string>
     <string name="dialog_activity_remove">Remove content</string>
 
-    <string name="activity_custom_dialog">App/Activity/03.Custom Dialog</string>
+    <string name="activity_custom_dialog">01.App/01.Activity/03.Custom Dialog</string>
     <string name="custom_dialog_activity_text">Example of how you can use a
             custom Theme.Dialog theme to make an activity that looks like a
             customized dialog, here with an ugly frame.</string>
 
-    <string name="activity_overscan">App/Activity/04.Overscan</string>
+    <string name="activity_overscan">01.App/01.Activity/04.Overscan</string>
 
-    <string name="quick_contacts_demo">App/Activity/05.QuickContactsDemo</string>
+    <string name="quick_contacts_demo">01.App/01.Activity/05.QuickContactsDemo</string>
 
-    <string name="activity_wallpaper">App/Activity/06.Wallpaper</string>
-    <string name="activity_setwallpaper">App/Activity/07.SetWallpaper</string>
+    <string name="activity_wallpaper">01.App/01.Activity/06.Wallpaper</string>
+    <string name="activity_setwallpaper">01.App/01.Activity/07.SetWallpaper</string>
     <string name="set_wallpaper">Set Wallpaper</string>
     <string name="randomize">Randomize</string>
 
-    <string name="activity_screen_orientation">App/Activity/08.Screen Orientation</string>
+    <string name="activity_screen_orientation">01.App/01.Activity/08.Screen Orientation</string>
     <string name="screen_orientation_summary">Demonstrates the available screen
         orientation modes.  Often you want to set the desired mode in your manifest
         instead of programmatically.</string>
     <string name="screen_orientation">Screen Orientation</string>
 
-    <string name="activity_translucent">App/Activity/09.Translucent</string>
+    <string name="activity_translucent">01.App/01.Activity/09.Translucent</string>
     <string name="translucent_background">Example of how you can make an
             activity have a translucent background, compositing over
             whatever is behind it.</string>
 
-    <string name="activity_translucent_blur">App/Activity/10.Translucent Blur</string>
+    <string name="activity_translucent_blur">01.App/01.Activity/10.Translucent Blur</string>
 
-    <string name="activity_animation">App/Activity/11.Animation</string>
+    <string name="activity_animation">01.App/01.Activity/11.Animation</string>
     <string name="activity_animation_msg">Press a button to launch an activity with a custom animation.</string>
     <string name="activity_animation_fade">Fade in</string>
     <string name="activity_animation_zoom">Zoom in</string>
@@ -64,13 +64,13 @@
     <string name="activity_scale_up_animation">Scale up</string>
     <string name="activity_zoom_thumbnail_animation">Thumbnail zoom</string>
 
-    <string name="activity_save_restore">App/Activity/12.Save &amp; Restore State</string>
+    <string name="activity_save_restore">01.App/01.Activity/12.Save &amp; Restore State</string>
     <string name="save_restore_msg">Demonstration of saving and restoring activity state in onSaveInstanceState() and onCreate().</string>
     <string name="saves_state">This text field saves its state:</string>
     <string name="no_saves_state">This text field does not save its state:</string>
     <string name="initial_text">Initial text.</string>
 
-    <string name="soft_input_modes">App/Activity/13.Soft Input Modes</string>
+    <string name="soft_input_modes">01.App/01.Activity/13.Soft Input Modes</string>
     <string name="soft_input_modes_summary">Shows how different soft input modes impact
         application resizing due to an input method.</string>
     <string name="soft_input_modes_label">Resize mode: </string>
@@ -79,27 +79,27 @@
     <string name="soft_input_modes_initial_text">Text editor.\n\nTap to show the IME,
         which will cause this window to resize as requested.</string>
 
-    <string name="activity_persistent">App/Activity/14.Persistent State</string>
+    <string name="activity_persistent">01.App/01.Activity/14.Persistent State</string>
     <string name="persistent_msg">Demonstration of persistent activity state with getPreferences(0).edit() and getPreferences(0).</string>
 
-    <string name="activity_recreate">App/Activity/15.Recreate</string>
+    <string name="activity_recreate">01.App/01.Activity/15.Recreate</string>
     <string name="activity_recreate_msg">Demonstration recreating an activity, to have
         it reconstructed with significant new changes.  In this case the theme is changed.</string>
     <string name="recreate">Recreate</string>
 
-    <string name="activity_finish_affinity">App/Activity/16.Finish Affinity</string>
+    <string name="activity_finish_affinity">01.App/01.Activity/16.Finish Affinity</string>
 
-    <string name="activity_receive_result">App/Activity/17.Receive Result</string>
+    <string name="activity_receive_result">01.App/01.Activity/17.Receive Result</string>
     <string name="pick_result">Pick a result to send, or BACK to cancel.</string>
     <string name="corky">Corky</string>
     <string name="violet">Violet</string>
 
-    <string name="activity_forwarding">App/Activity/18.Forwarding</string>
+    <string name="activity_forwarding">01.App/01.Activity/18.Forwarding</string>
     <string name="forwarding">Press the button to go forward to the next activity.  This activity will stop, so you will no longer see it when going back.</string>
     <string name="go">Go</string>
     <string name="forward_target">Press back button and notice we don\'t see the previous activity.</string>
 
-    <string name="activity_redirect">App/Activity/19.Redirection</string>
+    <string name="activity_redirect">01.App/01.Activity/19.Redirection</string>
     <string name="redirect_enter">Press the button to start the example.  The next activity will conditionally redirect to another activity to collect data from the user.</string>
     <string name="redirect_main">You now see the main activity running normally because the user text has been set to:</string>
     <string name="clear_text">Clear and Exit</string>
@@ -107,7 +107,7 @@
     <string name="redirect_getter">Enter the text that will be used by the main activity.  Press back to cancel.</string>
     <string name="apply">Apply</string>
 
-    <string name="activity_presentation">App/Activity/20.Presentation</string>
+    <string name="activity_presentation">01.App/01.Activity/20.Presentation</string>
     <string name="presentation_activity_text">This activity demonstrates how to use a
                   Presentation and the DisplayManager to show content on other Displays.\n
                   Try connecting a secondary display and watch what happens.\n
@@ -119,7 +119,7 @@
     <string name="presentation_alert_info_text">Display #%1$d Info</string>
     <string name="presentation_alert_dismiss_text">OK</string>
 
-    <string name="activity_presentation_with_media_router">App/Activity/21.Presentation with Media Router</string>
+    <string name="activity_presentation_with_media_router">01.App/01.Activity/21.Presentation with Media Router</string>
     <string name="presentation_with_media_router_activity_text">This activity demonstrates how to
                   use a Presentation and the MediaRouter to automatically
                   show content on a secondary display when available based on the currently
@@ -129,7 +129,7 @@
     <string name="presentation_with_media_router_now_playing_locally">Now playing on main display \'%s\'.</string>
     <string name="presentation_with_media_router_now_playing_remotely">Now playing on secondary display \'%s\'.</string>
 
-    <string name="activity_secure_window">App/Activity/Secure Surfaces/22.Secure Window</string>
+    <string name="activity_secure_window">01.App/01.Activity/Secure Surfaces/22.Secure Window</string>
     <string name="secure_window_activity_text">This activity demonstrates how to make an activity
             use a secure surface so that its contents will only be visible on secure displays.
             The activity\'s window has been marked with FLAG_SECURE to make it use a secure surface.
@@ -138,7 +138,7 @@
             \n
             I am a secure activity!</string>
 
-    <string name="activity_secure_dialog">App/Activity/Secure Surfaces/Secure Dialog</string>
+    <string name="activity_secure_dialog">01.App/01.Activity/Secure Surfaces/23.Secure Dialog</string>
     <string name="secure_dialog_activity_text">This activity demonstrates how to make a dialog use
             a secure surface so that its contents will only be visible on secure displays.
             The dialog\'s window has been marked with FLAG_SECURE to make it use a secure surface.
@@ -147,7 +147,7 @@
     <string name="secure_dialog_show_button">Show secure dialog</string>
     <string name="secure_dialog_dialog_text">I am a secure dialog!</string>
 
-    <string name="activity_secure_surface_view">App/Activity/Secure Surfaces/Secure Surface View</string>
+    <string name="activity_secure_surface_view">01.App/01.Activity/Secure Surfaces/24.Secure Surface View</string>
     <string name="secure_surface_view_activity_text">This activity demonstrates how to make a
             SurfaceView use a secure surface so that its contents will only be visible on
             secure displays.
@@ -155,9 +155,9 @@
             a secure surface.  Consequently, the contents of the surface view will not appear in
             screenshots and will not be mirrored to non-secure displays.</string>
 
-    <string name="fragment_alert_dialog">App/Fragment/Alert Dialog</string>
+    <string name="fragment_alert_dialog">01.App/02.Fragment/01.Alert Dialog</string>
 
-    <string name="fragment_arguments">App/Fragment/Arguments</string>
+    <string name="fragment_arguments">01.App/02.Fragment/02.Arguments</string>
     <string name="fragment_arguments_msg">Demonstrates a fragment that takes arguments
         as a Bundle at runtime (on the right) or from attributes in a layout (on the left).</string>
     <string name="fragment_arguments_embedded">From Attributes</string>
@@ -166,61 +166,61 @@
     <string name="fragment_arguments_fragment_msg">Demonstrates two embedded fragments
         that are instantiated with arguments.</string>
 
-    <string name="fragment_custom_animations">App/Fragment/Custom Animations</string>
+    <string name="fragment_custom_animations">01.App/02.Fragment/03.Custom Animations</string>
 
-    <string name="fragment_hide_show">App/Fragment/Hide and Show</string>
+    <string name="fragment_hide_show">01.App/02.Fragment/04.Hide and Show</string>
 
-    <string name="fragment_context_menu">App/Fragment/Context Menu</string>
+    <string name="fragment_context_menu">01.App/02.Fragment/05.Context Menu</string>
     <string name="fragment_context_menu_msg">Fragment populating a context
             menu; long press the button to see.</string>
     <string name="long_press">Long press me</string>
 
-    <string name="fragment_dialog">App/Fragment/Dialog</string>
+    <string name="fragment_dialog">01.App/02.Fragment/06.Dialog</string>
     <string name="show">Show</string>
 
-    <string name="fragment_dialog_or_activity">App/Fragment/Dialog or Activity</string>
+    <string name="fragment_dialog_or_activity">01.App/02.Fragment/07.Dialog or Activity</string>
     <string name="fragment_dialog_or_activity_msg">Demonstrates the same fragment
             being shown as a dialog and embedded inside of an activity.</string>
     <string name="fragment_dialog_or_activity_inline">Fragment embedded inside
             of the activity:</string>
 
-    <string name="fragment_layout">App/Fragment/Layout</string>
+    <string name="fragment_layout">01.App/02.Fragment/Layout</string>
 
-    <string name="fragment_list_array">App/Fragment/List Array</string>
+    <string name="fragment_list_array">01.App/02.Fragment/List Array</string>
 
-    <string name="fragment_menu">App/Fragment/Menu</string>
+    <string name="fragment_menu">01.App/02.Fragment/Menu</string>
     <string name="fragment_menu_msg">Build menus from two fragments, allowing
         you to hide them to remove them..</string>
     <string name="fragment1menu">Show fragment 1 menu</string>
     <string name="fragment2menu">Show fragment 2 menu</string>
 
-    <string name="fragment_nesting_tabs">App/Fragment/Nesting Tabs</string>
+    <string name="fragment_nesting_tabs">01.App/02.Fragment/Nesting Tabs</string>
 
-    <string name="fragment_retain_instance">App/Fragment/Retain Instance</string>
+    <string name="fragment_retain_instance">01.App/02.Fragment/Retain Instance</string>
     <string name="fragment_retain_instance_msg">Current progress of retained fragment;
     restarts if fragment is re-created.</string>
     <string name="restart">Restart</string>
 
-    <string name="fragment_receive_result">App/Fragment/Receive Result</string>
+    <string name="fragment_receive_result">01.App/02.Fragment/Receive Result</string>
 
-    <string name="fragment_stack">App/Fragment/Stack</string>
+    <string name="fragment_stack">01.App/02.Fragment/Stack</string>
     <string name="new_fragment">Push</string>
     <string name="delete_fragment">Pop</string>
 
     <string name="first">First</string>
     <string name="last">Last</string>
 
-    <string name="fragment_tabs">App/Fragment/Tabs</string>
+    <string name="fragment_tabs">01.App/02.Fragment/Tabs</string>
 
-    <string name="loader_cursor">App/Loader/Cursor</string>
+    <string name="loader_cursor">01.App/Loader/Cursor</string>
 
-    <string name="loader_retained">App/Loader/Retained</string>
+    <string name="loader_retained">01.App/Loader/Retained</string>
 
-    <string name="loader_custom">App/Loader/Custom</string>
+    <string name="loader_custom">01.App/Loader/Custom</string>
 
-    <string name="loader_throttle">App/Loader/Throttle</string>
+    <string name="loader_throttle">01.App/Loader/Throttle</string>
 
-    <string name="activity_menu">App/Activity/Menu</string>
+    <string name="activity_menu">01.App/01.Activity/Menu</string>
     <string name="open_menu">Open menu</string>
     <string name="close_menu">Close menu</string>
     <string name="toggle_scenery">Toggle scenery</string>
@@ -231,13 +231,13 @@
     <string name="local_service_stopped">Local service has stopped</string>
     <string name="local_service_label">Sample Local Service</string>
 
-    <string name="activity_local_service_controller">App/Service/Local Service Controller</string>
+    <string name="activity_local_service_controller">01.App/Service/Local Service Controller</string>
     <string name="local_service_controller">This demonstrates how you can implement persistent services that
         may be started and stopped as desired.</string>
     <string name="start_service">Start Service</string>
     <string name="stop_service">Stop Service</string>
 
-    <string name="activity_local_service_binding">App/Service/Local Service Binding</string>
+    <string name="activity_local_service_binding">01.App/Service/Local Service Binding</string>
     <string name="local_service_binding">This demonstrates how you can connect with a persistent
         service.  Notice how it automatically starts for you, and play around with the
         interaction between this and Local Service Controller.</string>
@@ -246,7 +246,7 @@
     <string name="local_service_connected">Connected to local service</string>
     <string name="local_service_disconnected">Disconnected from local service</string>
 
-    <string name="activity_messenger_service_binding">App/Service/Messenger Service</string>
+    <string name="activity_messenger_service_binding">01.App/Service/Messenger Service</string>
     <string name="messenger_service_binding">This demonstrates how you can communicate with
         a remote service using Messenger.</string>
 
@@ -254,11 +254,11 @@
     <string name="remote_service_stopped">Remote service has stopped</string>
     <string name="remote_service_label">Sample Remote Service</string>
 
-    <string name="activity_remote_service_controller">App/Service/Remote Service Controller</string>
+    <string name="activity_remote_service_controller">01.App/Service/Remote Service Controller</string>
     <string name="remote_service_controller">This demonstrates how you can implement persistent services
         running in a separate process that may be started and stopped as desired.</string>
 
-    <string name="activity_remote_service_binding">App/Service/Remote Service Binding</string>
+    <string name="activity_remote_service_binding">01.App/Service/Remote Service Binding</string>
     <string name="remote_service_binding">This demonstrates how you can connect with a persistent
         service running in another process.  Use the kill button to see what happens when
         the process crashes.</string>
@@ -268,12 +268,12 @@
     <string name="remote_service_unbind_disconn">Unbinding due to disconnect</string>
     <string name="remote_call_failed">Failure calling remote service</string>
 
-    <string name="activity_remote_service_binding_options">App/Service/Remote Service Binding Options</string>
+    <string name="activity_remote_service_binding_options">01.App/Service/Remote Service Binding Options</string>
 
     <string name="service_start_arguments_label">Sample Service Start Arguments
     </string>
 
-    <string name="activity_service_start_arguments_controller">App/Service/Service
+    <string name="activity_service_start_arguments_controller">01.App/Service/Service
         Start Arguments Controller
     </string>
     <string name="service_start_arguments_controller">This demonstrates how
@@ -290,13 +290,13 @@
     <string name="foreground_service_started">Service is in the foreground</string>
     <string name="foreground_service_label">Sample Foreground Service</string>
 
-    <string name="activity_foreground_service_controller">App/Service/Foreground Service Controller</string>
+    <string name="activity_foreground_service_controller">01.App/Service/Foreground Service Controller</string>
     <string name="foreground_service_controller">This demonstrates how you can
             implement services that run in the foreground when needed.</string>
     <string name="start_service_foreground">Start Service Foreground</string>
     <string name="start_service_background">Start Service Background</string>
 
-    <string name="activity_isolated_service_controller">App/Service/Isolated Service Controller</string>
+    <string name="activity_isolated_service_controller">01.App/Service/Isolated Service Controller</string>
     <string name="isolated_service_controller">This demonstrates the use of android:isolatedProcess
             with services.  There are two services, which can be independently controlled; they will
             each run in their own isolated process</string>
@@ -313,7 +313,7 @@
     <string name="one_shot_received">The one-shot alarm has gone off</string>
     <string name="repeating_received">The repeating alarm has gone off</string>
 
-    <string name="activity_alarm_controller">App/Alarm/Alarm Controller</string>
+    <string name="activity_alarm_controller">01.App/Alarm/Alarm Controller</string>
     <string name="alarm_controller">This demonstrates how to schedule and handle
         one-shot and repeating alarms.</string>
     <string name="one_shot_alarm">One Shot Alarm</string>
@@ -329,7 +329,7 @@
     <string name="alarm_service_finished">The alarm service has finished running</string>
     <string name="alarm_service_label">Sample Alarm Service</string>
 
-    <string name="activity_alarm_service">App/Alarm/Alarm Service</string>
+    <string name="activity_alarm_service">01.App/Alarm/Alarm Service</string>
     <string name="alarm_service">This demonstrates how to schedule a repeating
         alarm that will initiate a long-lived operation through a service.</string>
     <string name="start_alarm_service">Start Alarm Service</string>
@@ -338,16 +338,16 @@
         30 seconds for 15 seconds</string>
     <string name="alarm_service_unscheduled">Alarm service has been unscheduled</string>
 
-    <string name="activity_local_sample">App/Instrumentation/Local Sample</string>
+    <string name="activity_local_sample">01.App/Instrumentation/Local Sample</string>
     <string name="local_sample">This demonstrates an Instrumentation that runs against
         one of our own classes.  Note that this activity will be killed as
         a side-effect of starting instrumentation on its own application.</string>
 
-    <string name="activity_contacts_filter">App/Instrumentation/Contacts Filter</string>
+    <string name="activity_contacts_filter">01.App/Instrumentation/Contacts Filter</string>
     <string name="contacts_filter">This demonstrates an Instrumentation package that
         launches the contacts list and simulates user events to filter it.</string>
 
-    <string name="pick_image_label">App/Activity/PickImage</string>
+    <string name="pick_image_label">01.App/01.Activity/PickImage</string>
     <string name="pick_image">Pick Image</string>
 
     <string name="short_notification_text">Short notification</string>
@@ -357,13 +357,13 @@
     <string name="notifying_service_controller">This service will update a status bar notification
                   every 5 seconds for a minute</string>
 
-    <string name="activity_custom_title">App/Activity/Custom Title</string>
+    <string name="activity_custom_title">01.App/01.Activity/Custom Title</string>
     <string name="custom_title_left">Left is best</string>
     <string name="custom_title_right">Right is always right</string>
     <string name="custom_title_left_button">Change Left</string>
     <string name="custom_title_right_button">Change Right</string>
 
-    <string name="activity_reorder">App/Activity/Reorder Activities</string>
+    <string name="activity_reorder">01.App/01.Activity/Reorder Activities</string>
     <string name="reorder_on_launch">This is the first of a sequence of four Activities.  A button on the fourth will use the Intent.FLAG_ACTIVITY_REORDER_TO_FRONT flag to bring the second of the activities to the front of the history stack. After that, proceeding back through the history should begin with the newly-frontmost second reorder activity, then the fourth, the third, and finally the first.</string>
     <string name="reorder_launch_two">Go to the second</string>
     <string name="reorder_two_text">This is the second in a sequence of four Activities.</string>
@@ -373,17 +373,17 @@
     <string name="reorder_four_text">This is the last in a sequence of four Activities.</string>
     <string name="reorder_second_to_front">Bring the second in front</string>
 
-    <string name="activity_rotation_animation">App/Activity/Rotation Animation</string>
+    <string name="activity_rotation_animation">01.App/01.Activity/Rotation Animation</string>
 
-    <string name="menu_from_xml_title">App/Menu/Inflate from XML</string>
+    <string name="menu_from_xml_title">01.App/Menu/Inflate from XML</string>
     <string name="menu_from_xml_instructions_press_menu">Select a menu resource and press the menu key.</string>
     <string name="menu_from_xml_instructions_go_back">If you want to choose another menu resource, go back and re-run this activity.</string>
 
-    <string name="voice_recognition">App/Voice Recognition</string>
+    <string name="voice_recognition">01.App/Voice Recognition</string>
     <string name="supported_languages">Supported languages</string>
     <string name="language_preference">Voice Search in Settings</string>
 
-    <string name="text_to_speech">App/Text-To-Speech</string>
+    <string name="text_to_speech">01.App/Text-To-Speech</string>
     <string name="again">Again</string>
 
     <string name="app_update_received">ApiDemos has been updated!</string>
@@ -455,7 +455,7 @@
     <!--  app/intents examples strings     -->
     <!-- ============================== -->
 
-    <string name="activity_intents">App/Activity/Intents</string>
+    <string name="activity_intents">01.App/01.Activity/Intents</string>
     <string name="intents">Example of launching various Intents.</string>
     <string name="get_music">Get Music</string>
     <string name="get_image">Get Image</string>
@@ -465,7 +465,7 @@
     <!--  app/intents activity flags examples strings     -->
     <!-- ============================== -->
 
-    <string name="activity_intent_activity_flags">App/Activity/Intent Activity Flags</string>
+    <string name="activity_intent_activity_flags">01.App/01.Activity/Intent Activity Flags</string>
     <string name="intent_activity_flags">Example of the use of various intent activity flags.</string>
     <string name="flag_activity_clear_task">FLAG_ACTIVITY_CLEAR_TASK</string>
     <string name="flag_activity_clear_task_pi">FLAG_ACTIVITY_CLEAR_TASK (PI)</string>
@@ -504,7 +504,7 @@
     <!--  app/dialog examples strings  -->
     <!-- ============================== -->
 
-    <string name="activity_alert_dialog">App/Alert Dialogs</string>
+    <string name="activity_alert_dialog">01.App/Alert Dialogs</string>
     <string name="alert_dialog_two_buttons">OK Cancel dialog with a message</string>
     <string name="alert_dialog_two_buttons_old_school">OK Cancel dialog with traditional theme</string>
     <string name="alert_dialog_two_buttons_holo_light">OK Cancel dialog with Holo Light theme</string>
@@ -680,7 +680,7 @@
     <!--  app/search examples strings  -->
     <!-- ============================== -->
 
-    <string name="search_invoke">App/Search/Invoke Search</string>
+    <string name="search_invoke">01.App/Search/Invoke Search</string>
     <string name="msg_search">This activity shows a few different ways to invoke search, and inserts context-specific data for use by the search activity.</string>
     <string name="search_sect_invocation">Ways to invoke search</string>
     <string name="label_onsearchrequested">onSearchRequested()</string>
@@ -688,7 +688,7 @@
     <string name="label_search_query_prefill">"Prefill query: "</string>
     <string name="label_search_query_appdata">"App Data: "</string>
 
-    <string name="search_query_results">App/Search/Query Search Results</string>
+    <string name="search_query_results">01.App/Search/Query Search Results</string>
     <string name="msg_search_results">This activity accepts query strings via the ACTION_SEARCH intent.  In a full implementation, you would use the query string to select results from your data source, and present a list of those results to the user.</string>
     <string name="label_search_query">"Query String: "</string>
     <string name="label_search_appdata">"Query App Data: "</string>
@@ -701,7 +701,7 @@
     <!--  app/shortcuts examples strings  -->
     <!-- ================================ -->
 
-    <string name="shortcuts">App/Launcher Shortcuts</string>
+    <string name="shortcuts">01.App/Launcher Shortcuts</string>
     <string name="sample_shortcuts">ApiDemos</string>
     <string name="shortcut_name">Sample</string>
 
@@ -713,7 +713,7 @@
     <!-- ============================== -->
 
     <!-- Manifest strings -->
-    <string name="activity_sample_device_admin">App/Device Admin</string>
+    <string name="activity_sample_device_admin">01.App/Device Admin</string>
     <string name="sample_device_admin">Sample Device Admin</string>
     <string name="sample_device_admin_description">Sample code for writing
         a DeviceAdmin class.  This implementation provides a UI (in ApiDemos)
@@ -835,11 +835,11 @@
     <!--  app/action bar examples strings  -->
     <!-- ================================= -->
 
-    <string name="action_bar_mechanics">App/Action Bar/Action Bar Mechanics</string>
-    <string name="action_bar_usage">App/Action Bar/Action Bar Usage</string>
-    <string name="action_bar_tabs">App/Action Bar/Action Bar Tabs</string>
-    <string name="action_bar_settings_action_provider">App/Action Bar/Action Provider/Settings Action Provider</string>
-    <string name="action_bar_share_action_provider">App/Action Bar/Action Provider/Share Action Provider</string>
+    <string name="action_bar_mechanics">01.App/Action Bar/Action Bar Mechanics</string>
+    <string name="action_bar_usage">01.App/Action Bar/Action Bar Usage</string>
+    <string name="action_bar_tabs">01.App/Action Bar/Action Bar Tabs</string>
+    <string name="action_bar_settings_action_provider">01.App/Action Bar/Action Provider/Settings Action Provider</string>
+    <string name="action_bar_share_action_provider">01.App/Action Bar/Action Provider/Share Action Provider</string>
     <string name="action_bar_settings_action_provider_no_handling">Handling in onOptionsItemSelected avoided</string>
 
     <string name="action_bar_search">Search</string>
@@ -852,7 +852,7 @@
     <string name="action_bar_share_with">Share with...</string>
     <string name="action_bar_settings">Settings</string>
 
-    <string name="action_bar_display_options">App/Action Bar/Display Options</string>
+    <string name="action_bar_display_options">01.App/Action Bar/Display Options</string>
     <string name="toggle_home_as_up">DISPLAY_HOME_AS_UP</string>
     <string name="toggle_show_home">DISPLAY_SHOW_HOME</string>
     <string name="toggle_use_logo">DISPLAY_USE_LOGO</string>
@@ -871,7 +871,7 @@
     <string name="btn_toggle_tabs">Toggle tab mode</string>
     <string name="btn_remove_all_tabs">Remove all tabs</string>
 
-    <string name="action_bar_navigation">App/Action Bar/Action Bar Navigation</string>
+    <string name="action_bar_navigation">01.App/Action Bar/Action Bar Navigation</string>
     <string name="action_bar_navigation_msg">Demonstrates various ways to navigate in
             applications involving the action bar.  This activity has been launched as the
             root of the app\'s task.</string>
@@ -888,10 +888,10 @@
     <!--  app/print print examples strings  -->
     <!-- ================================= -->
 
-    <string name="print_bitmap">App/Print/Print Bitmap</string>
-    <string name="print_html_from_screen">App/Print/Print HTML from screen</string>
-    <string name="print_html_off_screen">App/Print/Print HTML off screen</string>
-    <string name="print_custom_content">App/Print/Print Custom Layout</string>
+    <string name="print_bitmap">01.App/Print/Print Bitmap</string>
+    <string name="print_html_from_screen">01.App/Print/Print HTML from screen</string>
+    <string name="print_html_off_screen">01.App/Print/Print HTML off screen</string>
+    <string name="print_custom_content">01.App/Print/Print Custom Layout</string>
     <string name="print">Print</string>
     <string name="print_html_off_screen_msg">From the overflow menu you can print some
         off screen content.</string>

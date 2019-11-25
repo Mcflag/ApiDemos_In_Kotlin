@@ -268,6 +268,45 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".app.SecureWindowActivity"
+            android:label="@string/activity_secure_window">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.SecureDialogActivity"
+            android:label="@string/activity_secure_dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.SecureSurfaceViewActivity"
+            android:label="@string/activity_secure_surface_view">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <!-- Fragment Samples -->
+
+        <activity
+            android:name=".app.FragmentAlertDialog"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/fragment_alert_dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
 <!--        &lt;!&ndash; This sample doesn't work with the new action bar, so use-->
 <!--             the old style theme. &ndash;&gt;-->
 <!--        <activity-->
@@ -302,46 +341,6 @@
 <!--        <activity android:name=".app.ReorderTwo" />-->
 <!--        <activity android:name=".app.ReorderThree" />-->
 <!--        <activity android:name=".app.ReorderFour" />-->
-
-
-<!--        <activity-->
-<!--            android:name=".app.SecureWindowActivity"-->
-<!--            android:label="@string/activity_secure_window">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.SecureDialogActivity"-->
-<!--            android:label="@string/activity_secure_dialog">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.SecureSurfaceViewActivity"-->
-<!--            android:label="@string/activity_secure_surface_view">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        &lt;!&ndash; Fragment Samples &ndash;&gt;-->
-
-<!--        <activity-->
-<!--            android:name=".app.FragmentAlertDialog"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/fragment_alert_dialog">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
 
 <!--        <activity-->
 <!--            android:name=".app.FragmentArguments"-->
