@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:paddingBottom="4dip"
+        android:paddingBottom="4dp"
         android:text="@string/soft_input_modes_summary"
         android:textAppearance="?android:textAppearanceMedium" />
 
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:background="@drawable/red"
-        android:paddingBottom="6dip"
+        android:paddingBottom="6dp"
         android:text="@string/soft_input_modes_content"
         android:textAppearance="?android:textAppearanceMedium" />
 

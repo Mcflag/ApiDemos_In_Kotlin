@@ -4,10 +4,10 @@
 <!-- Demonstrates horizontal scrolling with a ScrollView. -->
 <HorizontalScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="100dip"
-    android:layout_height="120dip">
+    android:layout_width="100dp"
+    android:layout_height="120dp">
     <TextView
-        android:layout_width="300dip"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="@string/scrollbar_3_text" />
 </HorizontalScrollView>

@@ -10,8 +10,8 @@
 
     <ImageButton android:id="@+id/button"
         android:background="@drawable/ic_launcher_settings"
-        android:layout_width="32dip"
-        android:layout_height="32dip"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
         android:layout_gravity="center"
         android:scaleType="fitCenter"
         android:adjustViewBounds="true" />

@@ -163,9 +163,6 @@
     <string name="fragment_arguments_embedded">From Attributes</string>
     <string name="fragment_arguments_embedded_land">Landscape Only</string>
 
-    <string name="fragment_arguments_fragment_msg">Demonstrates two embedded fragments
-        that are instantiated with arguments.</string>
-
     <string name="fragment_custom_animations">01.App/02.Fragment/03.Custom Animations</string>
 
     <string name="fragment_hide_show">01.App/02.Fragment/04.Hide and Show</string>
@@ -184,11 +181,11 @@
     <string name="fragment_dialog_or_activity_inline">Fragment embedded inside
             of the activity:</string>
 
-    <string name="fragment_layout">01.App/02.Fragment/Layout</string>
+    <string name="fragment_layout">01.App/02.Fragment/08.Layout</string>
 
-    <string name="fragment_list_array">01.App/02.Fragment/List Array</string>
+    <string name="fragment_list_array">01.App/02.Fragment/09.List Array</string>
 
-    <string name="fragment_menu">01.App/02.Fragment/Menu</string>
+    <string name="fragment_menu">01.App/02.Fragment/10.Menu</string>
     <string name="fragment_menu_msg">Build menus from two fragments, allowing
         you to hide them to remove them..</string>
     <string name="fragment1menu">Show fragment 1 menu</string>

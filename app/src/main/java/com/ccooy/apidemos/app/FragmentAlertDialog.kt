@@ -43,6 +43,7 @@ class FragmentAlertDialog :AppCompatActivity(){
             return AlertDialog.Builder(activity!!)
                 .setIcon(R.drawable.alert_dialog_icon)
                 .setTitle(title!!)
+                .setCancelable(false)
                 .setPositiveButton(
                     R.string.alert_dialog_ok
                 ) { dialog, whichButton -> (activity as FragmentAlertDialog).doPositiveClick() }

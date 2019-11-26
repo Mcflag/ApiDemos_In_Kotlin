@@ -11,14 +11,14 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dip"
+        android:layout_marginTop="20dp"
         android:splitMotionEvents="true"
         >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="5dip"
-            android:paddingRight="5dip"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:textStyle="bold"
             android:text="TX"
             />
@@ -32,8 +32,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="15dip"
-            android:paddingRight="5dip"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
             android:textStyle="bold"
             android:text="TY"
             />
@@ -49,14 +49,14 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dip"
+        android:layout_marginTop="20dp"
         android:splitMotionEvents="true"
         >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="5dip"
-            android:paddingRight="5dip"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:textStyle="bold"
             android:text="SX"
             />
@@ -70,8 +70,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="15dip"
-            android:paddingRight="5dip"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
             android:textStyle="bold"
             android:text="SY"
             />
@@ -87,14 +87,14 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dip"
+        android:layout_marginTop="20dp"
         android:splitMotionEvents="true"
         >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="5dip"
-            android:paddingRight="5dip"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:textStyle="bold"
             android:text="X"
             />
@@ -108,8 +108,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="15dip"
-            android:paddingRight="5dip"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
             android:textStyle="bold"
             android:text="Y"
             />
@@ -123,8 +123,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="15dip"
-            android:paddingRight="5dip"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
             android:textStyle="bold"
             android:text="Z"
             />
@@ -137,10 +137,10 @@
         />
     </LinearLayout>
     <Button
-        android:layout_width="200dip"
-        android:layout_height="150dip"
-        android:layout_marginLeft="50dip"
-        android:layout_marginTop="50dip"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
         android:text="Rotating Button"
         android:id="@+id/rotatingButton"
         />

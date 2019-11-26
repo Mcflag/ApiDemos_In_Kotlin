@@ -7,12 +7,12 @@
     android:layout_height="match_parent">
 
     <ImageView android:id="@+id/icon"
-        android:layout_width="48dip"
-        android:layout_height="48dip" />
+        android:layout_width="48dp"
+        android:layout_height="48dp" />
 
     <TextView android:id="@+id/text"
         android:layout_gravity="center_vertical"
-        android:layout_width="0dip"
+        android:layout_width="0dp"
         android:layout_weight="1.0"
         android:layout_height="wrap_content" />
 

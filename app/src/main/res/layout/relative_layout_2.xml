@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/blue"
-    android:padding="10dip">
+    android:padding="10dp">
 
     <!--
         TextView goes at the top left by default .
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/entry"
         android:layout_alignParentRight="true"
-        android:layout_marginLeft="10dip"
+        android:layout_marginLeft="10dp"
         android:text="@string/relative_layout_2_ok" />
 
     <!--

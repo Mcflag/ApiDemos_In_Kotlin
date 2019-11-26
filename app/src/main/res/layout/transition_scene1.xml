@@ -5,32 +5,32 @@
               android:id="@+id/container">
 
     <View
-            android:layout_width="100dip"
-            android:layout_height="50dip"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:background="#f00"
             android:id="@+id/view1"/>
 
     <View
-            android:layout_width="100dip"
-            android:layout_height="50dip"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:background="#0f0"
             android:id="@+id/view2"/>
 
     <View
-            android:layout_width="100dip"
-            android:layout_height="50dip"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
             android:background="#00f"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:id="@+id/view3"/>
 
     <View
-            android:layout_width="100dip"
-            android:layout_height="50dip"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
             android:background="#0ff"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"

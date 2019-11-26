@@ -12,25 +12,25 @@
 
     <TextView
         android:background="@drawable/red"
-        android:layout_width="0dip"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"/>
 
     <TextView
         android:background="@drawable/green"
-        android:layout_width="0dip"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"/>
 
     <TextView
         android:background="@drawable/blue"
-        android:layout_width="0dip"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"/>
 
     <TextView
         android:background="@drawable/yellow"
-        android:layout_width="0dip"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"/>
 

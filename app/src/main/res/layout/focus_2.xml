@@ -9,20 +9,20 @@
     <Button android:id="@+id/leftButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="3dip"
+        android:layout_marginRight="3dp"
         android:text="@string/focus_2_left"
         android:nextFocusRight="@+id/rightButton"/>  <!-- jump over middle! -->
 
     <Button android:id="@+id/centerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="3dip"
+        android:layout_marginRight="3dp"
         android:text="@string/focus_2_jump" />
 
     <Button android:id="@+id/rightButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="3dip"
+        android:layout_marginRight="3dp"
         android:text="@string/focus_2_right"/>
     
 </LinearLayout>

@@ -12,7 +12,7 @@
     android:layout_height="wrap_content"
     android:background="@drawable/blue"
     android:columnCount="4"
-    android:padding="10dip"
+    android:padding="10dp"
     >
     <TextView
         android:text="@string/grid_layout_1_instructions"
@@ -27,7 +27,7 @@
         android:text="@string/grid_layout_1_cancel"
     />
     <Button
-        android:layout_marginLeft="10dip"
+        android:layout_marginLeft="10dp"
         android:text="@string/grid_layout_1_ok"
     />
 </GridLayout>

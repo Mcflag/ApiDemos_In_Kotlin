@@ -11,11 +11,11 @@
            android:text="@string/table_layout_10_user"
            android:textStyle="bold"
            android:gravity="right"
-           android:padding="3dip" />
+           android:padding="3dp" />
 
        <EditText android:id="@+id/username"
            android:text="@string/table_layout_10_username_text"
-           android:padding="3dip"
+           android:padding="3dp"
            android:scrollHorizontally="true" />
    </TableRow>
 
@@ -24,12 +24,12 @@
            android:text="@string/table_layout_10_password"
            android:textStyle="bold"
            android:gravity="right"
-           android:padding="3dip" />
+           android:padding="3dp" />
 
        <EditText android:id="@+id/password"
            android:text="@string/table_layout_10_password_text"
            android:password="true"
-           android:padding="3dip"
+           android:padding="3dp"
            android:scrollHorizontally="true" />
    </TableRow>
 

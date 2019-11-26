@@ -121,7 +121,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dip"
+            android:layout_marginTop="5dp"
             android:focusable="true"
             android:text="@string/textColorPrimary"
             android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -129,7 +129,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dip"
+            android:layout_marginTop="5dp"
             android:focusable="true"
             android:text="@string/textColorSecondary"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -138,7 +138,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dip"
+            android:layout_marginTop="5dp"
             android:focusable="true"
             android:text="@string/textColorTertiary"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -146,13 +146,13 @@
 
         <TextView
             style="?android:attr/listSeparatorTextViewStyle"
-            android:layout_marginTop="5dip"
+            android:layout_marginTop="5dp"
             android:text="@string/listSeparatorTextViewStyle" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="400dip"
+            android:layout_marginTop="400dp"
             android:text="(And all inside of a ScrollView!)"
             android:textAppearance="?android:attr/textAppearanceLarge" />
     </LinearLayout>

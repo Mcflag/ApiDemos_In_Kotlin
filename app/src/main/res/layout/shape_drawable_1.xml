@@ -14,7 +14,7 @@
         
 		<ImageView
 			android:layout_width="match_parent"
-			android:layout_height="50dip"
+			android:layout_height="50dp"
 			android:src="@drawable/shape_1" />
 			
 		<ImageView
@@ -24,7 +24,7 @@
 			
 		<ImageView
 			android:layout_width="match_parent"
-			android:layout_height="50dip"
+			android:layout_height="50dp"
 			android:src="@drawable/shape_2" />
 			
 		<ImageView
@@ -34,7 +34,7 @@
 			
 		<ImageView
 			android:layout_width="match_parent"
-			android:layout_height="50dip"
+			android:layout_height="50dp"
 			android:src="@drawable/shape_3" />
 			
 		<ImageView
@@ -44,7 +44,7 @@
 					
 		<ImageView
 			android:layout_width="match_parent"
-			android:layout_height="50dip"
+			android:layout_height="50dp"
 			android:src="@drawable/shape_4" />
 			
 		<ImageView
@@ -54,7 +54,7 @@
 							
 		<ImageView
 			android:layout_width="match_parent"
-			android:layout_height="50dip"
+			android:layout_height="50dp"
 			android:src="@drawable/shape_5" />
 	</LinearLayout>
 </ScrollView>

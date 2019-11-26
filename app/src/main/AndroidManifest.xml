@@ -307,6 +307,103 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".app.FragmentArguments"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/fragment_arguments">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.FragmentCustomAnimations"
+            android:enabled="@bool/atLeastHoneycombMR2"
+            android:label="@string/fragment_custom_animations">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.FragmentHideShow"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/fragment_hide_show"
+            android:windowSoftInputMode="stateUnchanged">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.FragmentContextMenu"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/fragment_context_menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.FragmentDialog"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/fragment_dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.FragmentDialogOrActivity"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/fragment_dialog_or_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.FragmentLayout"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/fragment_layout">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.FragmentLayout$DetailsActivity"
+            android:enabled="@bool/atLeastHoneycomb" />
+
+        <activity
+            android:name=".app.FragmentListArray"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/fragment_list_array">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.FragmentMenu"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/fragment_menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+
+
 <!--        &lt;!&ndash; This sample doesn't work with the new action bar, so use-->
 <!--             the old style theme. &ndash;&gt;-->
 <!--        <activity-->
@@ -342,100 +439,8 @@
 <!--        <activity android:name=".app.ReorderThree" />-->
 <!--        <activity android:name=".app.ReorderFour" />-->
 
-<!--        <activity-->
-<!--            android:name=".app.FragmentArguments"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/fragment_arguments">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
 
-<!--        <activity-->
-<!--            android:name=".app.FragmentCustomAnimations"-->
-<!--            android:enabled="@bool/atLeastHoneycombMR2"-->
-<!--            android:label="@string/fragment_custom_animations">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
 
-<!--        <activity-->
-<!--            android:name=".app.FragmentHideShow"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/fragment_hide_show"-->
-<!--            android:windowSoftInputMode="stateUnchanged">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.FragmentContextMenu"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/fragment_context_menu">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.FragmentDialog"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/fragment_dialog">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.FragmentDialogOrActivity"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/fragment_dialog_or_activity">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.FragmentLayout"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/fragment_layout">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.FragmentLayout$DetailsActivity"-->
-<!--            android:enabled="@bool/atLeastHoneycomb" />-->
-
-<!--        <activity-->
-<!--            android:name=".app.FragmentListArray"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/fragment_list_array">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.FragmentMenu"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/fragment_menu">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
 
 <!--        <activity-->
 <!--            android:name=".app.FragmentNestingTabs"-->

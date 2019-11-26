@@ -18,11 +18,11 @@
         android:layout_height="wrap_content"
         android:splitMotionEvents="true">
         <ListView android:id="@+id/list1"
-                  android:layout_width="0dip"
+                  android:layout_width="0dp"
                   android:layout_height="match_parent"
                   android:layout_weight="1" />
         <ListView android:id="@+id/list2"
-                  android:layout_width="0dip"
+                  android:layout_width="0dp"
                   android:layout_height="match_parent"
                   android:layout_weight="1" />
     </LinearLayout>

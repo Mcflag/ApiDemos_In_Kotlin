@@ -4,32 +4,32 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
             android:orientation="horizontal">
-        <TextView android:layout_width="0px" android:layout_height="match_parent"
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
                 android:layout_weight="1" android:gravity="center_horizontal"
                 android:layout_marginLeft="4dp" android:layout_marginRight="4dp"
                 android:background="#800000ff" android:text="w600dp Width\n#1">
         </TextView>
-        <TextView android:layout_width="0px" android:layout_height="match_parent"
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
                 android:layout_weight="1" android:gravity="center_horizontal"
                 android:layout_marginLeft="4dp" android:layout_marginRight="4dp"
                 android:background="#800000ff" android:text="w600dp Width\n#2">
         </TextView>
-        <TextView android:layout_width="0px" android:layout_height="match_parent"
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
                 android:layout_weight="1" android:gravity="center_horizontal"
                 android:layout_marginLeft="4dp" android:layout_marginRight="4dp"
                 android:background="#800000ff" android:text="w600dp Width\n#3">
         </TextView>
-        <TextView android:layout_width="0px" android:layout_height="match_parent"
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
                 android:layout_weight="1" android:gravity="center_horizontal"
                 android:layout_marginLeft="4dp" android:layout_marginRight="4dp"
                 android:background="#800000ff" android:text="w600dp Width\n#4">
         </TextView>
-        <TextView android:layout_width="0px" android:layout_height="match_parent"
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
                 android:layout_weight="1" android:gravity="center_horizontal"
                 android:layout_marginLeft="4dp" android:layout_marginRight="4dp"
                 android:background="#800000ff" android:text="w600dp Width\n#5">
         </TextView>
-        <TextView android:layout_width="0px" android:layout_height="match_parent"
+        <TextView android:layout_width="0dp" android:layout_height="match_parent"
                 android:layout_weight="1" android:gravity="center_horizontal"
                 android:layout_marginLeft="4dp" android:layout_marginRight="4dp"
                 android:background="#800000ff" android:text="w600dp Width\n#6">

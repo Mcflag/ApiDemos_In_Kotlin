@@ -10,11 +10,11 @@
         <TextView
             android:layout_column="1"
             android:text="@string/table_layout_7_open"
-            android:padding="3dip" />
+            android:padding="3dp" />
         <TextView
             android:text="@string/table_layout_7_open_shortcut"
             android:gravity="right"
-            android:padding="3dip" />
+            android:padding="3dp" />
     </TableRow>
 
     <TableRow>
@@ -22,11 +22,11 @@
             android:layout_column="1"
             android:text="@string/table_layout_7_save"
             android:background="#FF00FF00"
-            android:padding="3dip" />
+            android:padding="3dp" />
         <TextView
             android:text="@string/table_layout_7_save_shortcut"
             android:gravity="right"
-            android:padding="3dip" />
+            android:padding="3dp" />
     </TableRow>
 
     <TableRow>
@@ -36,45 +36,45 @@
             android:text="@string/table_layout_7_save_as"
             android:background="#FFFF0000"
             android:layout_gravity="center_horizontal"
-            android:padding="3dip" />
+            android:padding="3dp" />
         <TextView
             android:text="@string/table_layout_7_save_as_shortcut"
             android:background="#FFFF00FF"
             android:gravity="right"
-            android:padding="3dip" />
+            android:padding="3dp" />
     </TableRow>
 
     <View
-        android:layout_height="2dip"
+        android:layout_height="2dp"
         android:background="#FF909090" />
 
     <TableRow>
         <TextView
             android:text="@string/table_layout_7_x"
-            android:padding="3dip" />
+            android:padding="3dp" />
         <TextView
             android:text="@string/table_layout_7_import"
-            android:padding="3dip" />
+            android:padding="3dp" />
     </TableRow>
 
     <TableRow>
         <View
-            android:layout_height="68dip"
+            android:layout_height="68dp"
             android:background="#FF909090" />
         <!-- Aligns the content of the cell to the bottom right -->
         <TextView
             android:text="@string/table_layout_7_export"
             android:background="#FFFF0000"
             android:layout_gravity="right|bottom"
-            android:padding="3dip" />
+            android:padding="3dp" />
         <TextView
             android:text="@string/table_layout_7_export_shortcut"
             android:background="#FF00FFFF"
             android:gravity="right"
-            android:padding="3dip" />
+            android:padding="3dp" />
     </TableRow>
 
     <View
-        android:layout_height="2dip"
+        android:layout_height="2dp"
         android:background="#FF909090" />
 </TableLayout>

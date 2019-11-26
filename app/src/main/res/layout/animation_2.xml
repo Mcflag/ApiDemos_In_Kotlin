@@ -3,7 +3,7 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
-        android:padding="10dip"
+        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:flipInterval="2000"
-                android:layout_marginBottom="20dip" >
+                android:layout_marginBottom="20dp" >
                 <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="5dip"
+        android:layout_marginBottom="5dp"
         android:text="@string/animation_2_instructions"
     />
 

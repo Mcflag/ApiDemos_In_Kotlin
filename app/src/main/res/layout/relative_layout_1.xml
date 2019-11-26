@@ -32,7 +32,7 @@
         android:id="@+id/view3"
         android:background="@drawable/yellow"
         android:layout_width="match_parent"
-        android:layout_height="0dip"
+        android:layout_height="0dp"
         android:layout_above="@id/view2"
         android:layout_below="@id/view1"
         android:text="@string/relative_layout_1_center"/>

@@ -16,57 +16,57 @@
             <TableRow>
                 <TextView
                     android:text="@string/table_layout_9_open"
-                    android:padding="3dip" />
+                    android:padding="3dp" />
                 <TextView
                     android:text="@string/table_layout_9_open_shortcut"
                     android:gravity="right"
-                    android:padding="3dip" />
+                    android:padding="3dp" />
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="@string/table_layout_9_save"
-                    android:padding="3dip" />
+                    android:padding="3dp" />
                 <TextView
                     android:text="@string/table_layout_9_save_shortcut"
                     android:gravity="right"
-                    android:padding="3dip" />
+                    android:padding="3dp" />
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="@string/table_layout_9_save_as"
-                    android:padding="3dip" />
+                    android:padding="3dp" />
                 <TextView
                     android:text="@string/table_layout_9_save_as_shortcut"
                     android:gravity="right"
-                    android:padding="3dip" />
+                    android:padding="3dp" />
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="@string/table_layout_9_save_all"
-                    android:padding="3dip" />
+                    android:padding="3dp" />
                 <TextView
                     android:text="@string/table_layout_9_save_all_shortcut"
                     android:gravity="right"
-                    android:padding="3dip" />
+                    android:padding="3dp" />
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="@string/table_layout_9_import"
-                    android:padding="3dip" />
+                    android:padding="3dp" />
             </TableRow>
 
             <TableRow>
                 <TextView
                     android:text="@string/table_layout_9_export"
-                    android:padding="3dip" />
+                    android:padding="3dp" />
                 <TextView
                     android:text="@string/table_layout_9_export_shortcut"
                     android:gravity="right"
-                    android:padding="3dip" />
+                    android:padding="3dp" />
             </TableRow>
         </TableLayout>
 

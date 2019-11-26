@@ -7,13 +7,13 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="4dip">
+    android:padding="4dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:paddingBottom="8dip"
+        android:paddingBottom="8dp"
         android:text="@string/pick_result"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
