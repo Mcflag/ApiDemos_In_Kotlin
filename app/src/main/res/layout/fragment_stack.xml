@@ -13,7 +13,7 @@
         android:id="@+id/simple_fragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -38,6 +38,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:text="@string/delete_fragment"/>
+            android:text="@string/delete_fragment" />
     </LinearLayout>
 </LinearLayout>

@@ -402,9 +402,58 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".app.FragmentNestingTabs"
+            android:enabled="@bool/atLeastJellyBeanMR1"
+            android:label="@string/fragment_nesting_tabs">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.FragmentRetainInstance"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/fragment_retain_instance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.FragmentReceiveResult"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/fragment_receive_result">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.FragmentStack"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/fragment_stack">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+<!--        <activity-->
+<!--            android:name=".app.FragmentTabs"-->
+<!--            android:enabled="@bool/atLeastHoneycomb"-->
+<!--            android:label="@string/fragment_tabs">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
 
 
-<!--        &lt;!&ndash; This sample doesn't work with the new action bar, so use-->
+        <!--        &lt;!&ndash; This sample doesn't work with the new action bar, so use-->
 <!--             the old style theme. &ndash;&gt;-->
 <!--        <activity-->
 <!--            android:name=".app.CustomTitle"-->
@@ -440,95 +489,43 @@
 <!--        <activity android:name=".app.ReorderFour" />-->
 
 
+        <!-- Loader Samples -->
+
+        <activity
+            android:name=".app.LoaderCursor"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/loader_cursor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.LoaderCustom"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/loader_custom">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
 
 
-<!--        <activity-->
-<!--            android:name=".app.FragmentNestingTabs"-->
-<!--            android:enabled="@bool/atLeastJellyBeanMR1"-->
-<!--            android:label="@string/fragment_nesting_tabs">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
+        <activity
+            android:name=".app.LoaderThrottle"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/loader_throttle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
 
-<!--        <activity-->
-<!--            android:name=".app.FragmentRetainInstance"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/fragment_retain_instance">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.FragmentReceiveResult"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/fragment_receive_result">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.FragmentStack"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/fragment_stack">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.FragmentTabs"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/fragment_tabs">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        &lt;!&ndash; Loader Samples &ndash;&gt;-->
-
-<!--        <activity-->
-<!--            android:name=".app.LoaderCursor"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/loader_cursor">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.LoaderCustom"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/loader_custom">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-
-<!--        <activity-->
-<!--            android:name=".app.LoaderThrottle"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/loader_throttle">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <provider-->
-<!--            android:name=".app.LoaderThrottle$SimpleProvider"-->
-<!--            android:authorities="com.ccooy.apidemos.app.LoaderThrottle"-->
-<!--            android:enabled="@bool/atLeastHoneycomb" />-->
+        <provider
+            android:name=".app.LoaderThrottle$SimpleProvider"
+            android:authorities="com.ccooy.apidemos.app.LoaderThrottle"
+            android:enabled="@bool/atLeastHoneycomb" />
 
 
 <!--        <activity-->
