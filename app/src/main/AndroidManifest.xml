@@ -442,15 +442,15 @@
             </intent-filter>
         </activity>
 
-<!--        <activity-->
-<!--            android:name=".app.FragmentTabs"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/fragment_tabs">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
+        <activity
+            android:name=".app.FragmentTabs"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/fragment_tabs">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
 
 
         <!--        &lt;!&ndash; This sample doesn't work with the new action bar, so use-->
@@ -502,6 +502,16 @@
         </activity>
 
         <activity
+            android:name=".app.LoaderRetained"
+            android:enabled="@bool/atLeastHoneycomb"
+            android:label="@string/loader_retained">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".app.LoaderCustom"
             android:enabled="@bool/atLeastHoneycomb"
             android:label="@string/loader_custom">
@@ -527,16 +537,6 @@
             android:authorities="com.ccooy.apidemos.app.LoaderThrottle"
             android:enabled="@bool/atLeastHoneycomb" />
 
-
-<!--        <activity-->
-<!--            android:name=".app.LoaderRetained"-->
-<!--            android:enabled="@bool/atLeastHoneycomb"-->
-<!--            android:label="@string/loader_retained">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
 
 <!--        &lt;!&ndash; Intent Samples &ndash;&gt;-->
 

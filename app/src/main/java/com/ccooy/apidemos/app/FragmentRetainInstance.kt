@@ -43,12 +43,12 @@ class FragmentRetainInstance : AppCompatActivity() {
 
             val fm = fragmentManager
 
-            mWorkFragment = fm?.findFragmentByTag("work") as RetainedFragment
+            mWorkFragment = fm?.findFragmentByTag("work") as RetainedFragment?
 
             if (mWorkFragment == null) {
                 mWorkFragment = RetainedFragment()
                 mWorkFragment!!.setTargetFragment(this, 0)
-                fm.beginTransaction().add(mWorkFragment!!, "work").commit()
+                fm!!.beginTransaction().add(mWorkFragment!!, "work").commit()
             }
         }
 
@@ -59,6 +59,7 @@ class FragmentRetainInstance : AppCompatActivity() {
         internal var mPosition: Int = 0
         internal var mReady = false
         internal var mQuiting = false
+        private val lock = Object()
 
         internal val mThread: Thread = object : Thread() {
             override fun run() {
@@ -66,13 +67,13 @@ class FragmentRetainInstance : AppCompatActivity() {
 
                 while (true) {
 
-                    synchronized(this) {
+                    synchronized(lock) {
                         while (!mReady || mPosition >= max) {
                             if (mQuiting) {
                                 return
                             }
                             try {
-                                wait()
+                                lock.wait()
                             } catch (e: InterruptedException) {
                             }
 
@@ -83,9 +84,9 @@ class FragmentRetainInstance : AppCompatActivity() {
                         mProgressBar!!.progress = mPosition
                     }
 
-                    synchronized(this) {
+                    synchronized(lock) {
                         try {
-                            wait(50)
+                            lock.wait(50)
                         } catch (e: InterruptedException) {
                         }
                     }
@@ -107,36 +108,36 @@ class FragmentRetainInstance : AppCompatActivity() {
                 R.id.progress_horizontal
             ) as ProgressBar
 
-            synchronized(mThread) {
+            synchronized(lock) {
                 mReady = true
-                mThread.notify()
+                lock.notify()
             }
         }
 
         override fun onDestroy() {
-            synchronized(mThread) {
+            synchronized(lock) {
                 mReady = false
                 mQuiting = true
-                mThread.notify()
+                lock.notify()
             }
 
             super.onDestroy()
         }
 
         override fun onDetach() {
-            synchronized(mThread) {
+            synchronized(lock) {
                 mProgressBar = null
                 mReady = false
-                mThread.notify()
+                lock.notify()
             }
 
             super.onDetach()
         }
 
         fun restart() {
-            synchronized(mThread) {
+            synchronized(lock) {
                 mPosition = 0
-                mThread.notify()
+                lock.notify()
             }
         }
     }
