@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
 <!-- Demonstrates using Intent.FLAG_ACTIVITY_REORDER_TO_FRONT.
      See corresponding Java code com.android.sdk.app.ReorderOnLaunch.java. -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:padding="4dp"
-    android:gravity="center_horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="4dp">
 
     <TextView
-        android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:layout_weight="0" android:paddingBottom="4dp"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/reorder_on_launch"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingBottom="4dp"
+        android:text="@string/reorder_on_launch"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
-    <Button android:id="@+id/reorder_launch_two"
-        android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="@string/reorder_launch_two">
-    </Button>
+    <Button
+        android:id="@+id/reorder_launch_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reorder_launch_two"/>
 
 </LinearLayout>

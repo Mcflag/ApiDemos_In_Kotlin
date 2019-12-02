@@ -295,6 +295,48 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".app.ReorderOnLaunch"
+            android:label="@string/activity_reorder">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".app.ReorderTwo" />
+        <activity android:name=".app.ReorderThree" />
+        <activity android:name=".app.ReorderFour" />
+
+        <activity
+            android:name=".app.RotationAnimation"
+            android:label="@string/activity_rotation_animation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <!-- Intent Samples -->
+
+        <activity
+            android:name=".app.Intents"
+            android:label="@string/activity_intents">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.IntentActivityFlags"
+            android:label="@string/activity_intent_activity_flags">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
         <!-- Fragment Samples -->
 
         <activity
@@ -452,43 +494,6 @@
             </intent-filter>
         </activity>
 
-
-        <!--        &lt;!&ndash; This sample doesn't work with the new action bar, so use-->
-<!--             the old style theme. &ndash;&gt;-->
-<!--        <activity-->
-<!--            android:name=".app.CustomTitle"-->
-<!--            android:label="@string/activity_custom_title"-->
-<!--            android:theme="@style/Theme.AppCompat"-->
-<!--            android:windowSoftInputMode="stateVisible|adjustPan">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.ReorderOnLaunch"-->
-<!--            android:label="@string/activity_reorder">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.RotationAnimation"-->
-<!--            android:label="@string/activity_rotation_animation">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity android:name=".app.ReorderTwo" />-->
-<!--        <activity android:name=".app.ReorderThree" />-->
-<!--        <activity android:name=".app.ReorderFour" />-->
-
-
         <!-- Loader Samples -->
 
         <activity
@@ -537,51 +542,30 @@
             android:authorities="com.ccooy.apidemos.app.LoaderThrottle"
             android:enabled="@bool/atLeastHoneycomb" />
 
+        <!-- Service Samples -->
 
-<!--        &lt;!&ndash; Intent Samples &ndash;&gt;-->
+        <service
+            android:name=".app.LocalService"
+            android:stopWithTask="true" />
 
-<!--        <activity-->
-<!--            android:name=".app.Intents"-->
-<!--            android:label="@string/activity_intents">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
+        <activity
+            android:name=".app.LocalServiceActivities$Controller"
+            android:label="@string/activity_local_service_controller"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
 
-<!--        <activity-->
-<!--            android:name=".app.IntentActivityFlags"-->
-<!--            android:label="@string/activity_intent_activity_flags">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        &lt;!&ndash; Service Samples &ndash;&gt;-->
-
-<!--        <service-->
-<!--            android:name=".app.LocalService"-->
-<!--            android:stopWithTask="true" />-->
-
-<!--        <activity-->
-<!--            android:name=".app.LocalServiceActivities$Controller"-->
-<!--            android:label="@string/activity_local_service_controller"-->
-<!--            android:launchMode="singleTop">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
-<!--        <activity-->
-<!--            android:name=".app.LocalServiceActivities$Binding"-->
-<!--            android:label="@string/activity_local_service_binding">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.SAMPLE_CODE" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
+        <activity
+            android:name=".app.LocalServiceActivities$Binding"
+            android:label="@string/activity_local_service_binding">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
 
 
 <!--        <service-->

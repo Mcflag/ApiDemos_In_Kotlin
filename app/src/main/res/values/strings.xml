@@ -129,7 +129,7 @@
     <string name="presentation_with_media_router_now_playing_locally">Now playing on main display \'%s\'.</string>
     <string name="presentation_with_media_router_now_playing_remotely">Now playing on secondary display \'%s\'.</string>
 
-    <string name="activity_secure_window">01.App/01.Activity/Secure Surfaces/22.Secure Window</string>
+    <string name="activity_secure_window">01.App/01.Activity/22.Secure Surfaces/01.Secure Window</string>
     <string name="secure_window_activity_text">This activity demonstrates how to make an activity
             use a secure surface so that its contents will only be visible on secure displays.
             The activity\'s window has been marked with FLAG_SECURE to make it use a secure surface.
@@ -138,7 +138,7 @@
             \n
             I am a secure activity!</string>
 
-    <string name="activity_secure_dialog">01.App/01.Activity/Secure Surfaces/23.Secure Dialog</string>
+    <string name="activity_secure_dialog">01.App/01.Activity/22.Secure Surfaces/02.Secure Dialog</string>
     <string name="secure_dialog_activity_text">This activity demonstrates how to make a dialog use
             a secure surface so that its contents will only be visible on secure displays.
             The dialog\'s window has been marked with FLAG_SECURE to make it use a secure surface.
@@ -147,7 +147,7 @@
     <string name="secure_dialog_show_button">Show secure dialog</string>
     <string name="secure_dialog_dialog_text">I am a secure dialog!</string>
 
-    <string name="activity_secure_surface_view">01.App/01.Activity/Secure Surfaces/24.Secure Surface View</string>
+    <string name="activity_secure_surface_view">01.App/01.Activity/22.Secure Surfaces/03.Secure Surface View</string>
     <string name="secure_surface_view_activity_text">This activity demonstrates how to make a
             SurfaceView use a secure surface so that its contents will only be visible on
             secure displays.
@@ -165,14 +165,7 @@
     <string name="pick_image_label">01.App/01.Activity/PickImage</string>
     <string name="pick_image">Pick Image</string>
 
-
-    <string name="activity_custom_title">01.App/01.Activity/Custom Title</string>
-    <string name="custom_title_left">Left is best</string>
-    <string name="custom_title_right">Right is always right</string>
-    <string name="custom_title_left_button">Change Left</string>
-    <string name="custom_title_right_button">Change Right</string>
-
-    <string name="activity_reorder">01.App/01.Activity/Reorder Activities</string>
+    <string name="activity_reorder">01.App/01.Activity/23.Reorder Activities</string>
     <string name="reorder_on_launch">This is the first of a sequence of four Activities.  A button on the fourth will use the Intent.FLAG_ACTIVITY_REORDER_TO_FRONT flag to bring the second of the activities to the front of the history stack. After that, proceeding back through the history should begin with the newly-frontmost second reorder activity, then the fourth, the third, and finally the first.</string>
     <string name="reorder_launch_two">Go to the second</string>
     <string name="reorder_two_text">This is the second in a sequence of four Activities.</string>
@@ -182,13 +175,13 @@
     <string name="reorder_four_text">This is the last in a sequence of four Activities.</string>
     <string name="reorder_second_to_front">Bring the second in front</string>
 
-    <string name="activity_rotation_animation">01.App/01.Activity/Rotation Animation</string>
+    <string name="activity_rotation_animation">01.App/01.Activity/24.Rotation Animation</string>
 
     <!-- ============================== -->
     <!--  app/intents examples strings     -->
     <!-- ============================== -->
 
-    <string name="activity_intents">01.App/01.Activity/Intents</string>
+    <string name="activity_intents">01.App/01.Activity/25.Intents</string>
     <string name="intents">Example of launching various Intents.</string>
     <string name="get_music">Get Music</string>
     <string name="get_image">Get Image</string>
@@ -198,7 +191,7 @@
     <!--  app/intents activity flags examples strings     -->
     <!-- ============================== -->
 
-    <string name="activity_intent_activity_flags">01.App/01.Activity/Intent Activity Flags</string>
+    <string name="activity_intent_activity_flags">01.App/01.Activity/26.Intent Activity Flags</string>
     <string name="intent_activity_flags">Example of the use of various intent activity flags.</string>
     <string name="flag_activity_clear_task">FLAG_ACTIVITY_CLEAR_TASK</string>
     <string name="flag_activity_clear_task_pi">FLAG_ACTIVITY_CLEAR_TASK (PI)</string>
@@ -276,13 +269,13 @@
     <string name="local_service_stopped">Local service has stopped</string>
     <string name="local_service_label">Sample Local Service</string>
 
-    <string name="activity_local_service_controller">01.App/Service/Local Service Controller</string>
+    <string name="activity_local_service_controller">01.App/04.Service/01.Local Service Controller</string>
     <string name="local_service_controller">This demonstrates how you can implement persistent services that
         may be started and stopped as desired.</string>
     <string name="start_service">Start Service</string>
     <string name="stop_service">Stop Service</string>
 
-    <string name="activity_local_service_binding">01.App/Service/Local Service Binding</string>
+    <string name="activity_local_service_binding">01.App/04.Service/02.Local Service Binding</string>
     <string name="local_service_binding">This demonstrates how you can connect with a persistent
         service.  Notice how it automatically starts for you, and play around with the
         interaction between this and Local Service Controller.</string>
@@ -291,7 +284,7 @@
     <string name="local_service_connected">Connected to local service</string>
     <string name="local_service_disconnected">Disconnected from local service</string>
 
-    <string name="activity_messenger_service_binding">01.App/Service/Messenger Service</string>
+    <string name="activity_messenger_service_binding">01.App/04.Service/Messenger Service</string>
     <string name="messenger_service_binding">This demonstrates how you can communicate with
         a remote service using Messenger.</string>
 
@@ -299,11 +292,11 @@
     <string name="remote_service_stopped">Remote service has stopped</string>
     <string name="remote_service_label">Sample Remote Service</string>
 
-    <string name="activity_remote_service_controller">01.App/Service/Remote Service Controller</string>
+    <string name="activity_remote_service_controller">01.App/04.Service/Remote Service Controller</string>
     <string name="remote_service_controller">This demonstrates how you can implement persistent services
         running in a separate process that may be started and stopped as desired.</string>
 
-    <string name="activity_remote_service_binding">01.App/Service/Remote Service Binding</string>
+    <string name="activity_remote_service_binding">01.App/04.Service/Remote Service Binding</string>
     <string name="remote_service_binding">This demonstrates how you can connect with a persistent
         service running in another process.  Use the kill button to see what happens when
         the process crashes.</string>
@@ -313,12 +306,11 @@
     <string name="remote_service_unbind_disconn">Unbinding due to disconnect</string>
     <string name="remote_call_failed">Failure calling remote service</string>
 
-    <string name="activity_remote_service_binding_options">01.App/Service/Remote Service Binding Options</string>
+    <string name="activity_remote_service_binding_options">01.App/04.Service/Remote Service Binding Options</string>
 
-    <string name="service_start_arguments_label">Sample Service Start Arguments
-    </string>
+    <string name="service_start_arguments_label">Sample Service Start Arguments</string>
 
-    <string name="activity_service_start_arguments_controller">01.App/Service/Service
+    <string name="activity_service_start_arguments_controller">01.App/04.Service/Service
         Start Arguments Controller
     </string>
     <string name="service_start_arguments_controller">This demonstrates how
@@ -335,13 +327,13 @@
     <string name="foreground_service_started">Service is in the foreground</string>
     <string name="foreground_service_label">Sample Foreground Service</string>
 
-    <string name="activity_foreground_service_controller">01.App/Service/Foreground Service Controller</string>
+    <string name="activity_foreground_service_controller">01.App/04.Service/Foreground Service Controller</string>
     <string name="foreground_service_controller">This demonstrates how you can
             implement services that run in the foreground when needed.</string>
     <string name="start_service_foreground">Start Service Foreground</string>
     <string name="start_service_background">Start Service Background</string>
 
-    <string name="activity_isolated_service_controller">01.App/Service/Isolated Service Controller</string>
+    <string name="activity_isolated_service_controller">01.App/04.Service/Isolated Service Controller</string>
     <string name="isolated_service_controller">This demonstrates the use of android:isolatedProcess
             with services.  There are two services, which can be independently controlled; they will
             each run in their own isolated process</string>
@@ -497,7 +489,7 @@
     <string name="status_bar_notifications_ok">:-|</string>
     <string name="status_bar_notifications_sad">:-(</string>
     <string name="status_bar_notifications_happy_message">I am happy</string>
-    <string name="status_bar_notifications_ok_message">I am ok</string>
+    <string name="status_bar_notifications_ok_message">I am OK</string>
     <string name="status_bar_notifications_sad_message">I am sad</string>
     <string name="status_bar_notifications_clear">Clear notification</string>
     <string name="status_bar_notifications_mood_title">Mood ring</string>
@@ -1141,7 +1133,7 @@
     <string name="focus_5_button4">4</string>
     <string name="focus_5_button5">5</string>
     <string name="grid_layout_1_instructions">Type here:</string>
-    <string name="grid_layout_1_ok">Ok</string>
+    <string name="grid_layout_1_ok">OK</string>
     <string name="grid_layout_1_cancel">Cancel</string>
     <string name="googlelogin_login">Login</string>
     <string name="googlelogin_bad_login">Bad Login</string>

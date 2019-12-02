@@ -1,38 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
 <!-- Demonstrates launching various intents.
      See corresponding Java code com.ccooy.apidemos.app.Intents.java. -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:padding="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:padding="4dp">
 
     <TextView
-        android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:layout_weight="0" android:paddingBottom="4dp"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/intents"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingBottom="4dp"
+        android:text="@string/intents"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
-    <Button android:id="@+id/get_music"
-        android:layout_width="wrap_content" android:layout_height="wrap_content" 
-        android:text="@string/get_music"
-        android:onClick="onGetMusic">
+    <Button
+        android:id="@+id/get_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onGetMusic"
+        android:text="@string/get_music">
+
         <requestFocus />
     </Button>
 
-    <Button android:id="@+id/get_image"
-        android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="@string/get_image"
-        android:onClick="onGetImage">
-    </Button>
+    <Button
+        android:id="@+id/get_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onGetImage"
+        android:text="@string/get_image"/>
 
-    <Button android:id="@+id/get_stream"
-        android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="@string/get_stream"
-        android:onClick="onGetStream">
-    </Button>
+    <Button
+        android:id="@+id/get_stream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onGetStream"
+        android:text="@string/get_stream"/>
 
 </LinearLayout>
 
